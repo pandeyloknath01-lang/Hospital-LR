@@ -38,6 +38,3 @@ if st.button("Predict Cost"):
     st.success(f"Predicted Treatment Cost: ₹{prediction:,.0f}")
     st.info(f"Suggested Package Price: ₹{package_price:,.0f}")
 
-
-
-!pip install streamlit
