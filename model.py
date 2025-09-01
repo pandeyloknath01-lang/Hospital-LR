@@ -13,7 +13,7 @@ import numpy as np
 import pandas as pd
 
 # Load model
-model = pickle.load(open("hospital_model.sav", "rb"))
+model = pickle.load(open("model.sav", "rb"))
 
 st.title("🏥 Hospital Treatment Cost Prediction")
 
